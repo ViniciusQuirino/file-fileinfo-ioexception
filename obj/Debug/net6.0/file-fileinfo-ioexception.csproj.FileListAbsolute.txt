@@ -1,0 +1,15 @@
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/bin/Debug/net6.0/file-fileinfo-ioexception
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/bin/Debug/net6.0/file-fileinfo-ioexception.deps.json
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/bin/Debug/net6.0/file-fileinfo-ioexception.runtimeconfig.json
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/bin/Debug/net6.0/file-fileinfo-ioexception.dll
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/bin/Debug/net6.0/ref/file-fileinfo-ioexception.dll
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/bin/Debug/net6.0/file-fileinfo-ioexception.pdb
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/obj/Debug/net6.0/file-fileinfo-ioexception.csproj.AssemblyReference.cache
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/obj/Debug/net6.0/file-fileinfo-ioexception.GeneratedMSBuildEditorConfig.editorconfig
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/obj/Debug/net6.0/file-fileinfo-ioexception.AssemblyInfoInputs.cache
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/obj/Debug/net6.0/file-fileinfo-ioexception.AssemblyInfo.cs
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/obj/Debug/net6.0/file-fileinfo-ioexception.csproj.CoreCompileInputs.cache
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/obj/Debug/net6.0/file-fileinfo-ioexception.dll
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/obj/Debug/net6.0/ref/file-fileinfo-ioexception.dll
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/obj/Debug/net6.0/file-fileinfo-ioexception.pdb
+/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/obj/Debug/net6.0/file-fileinfo-ioexception.genruntimeconfig.cache
