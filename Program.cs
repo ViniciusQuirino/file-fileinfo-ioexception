@@ -9,24 +9,21 @@ namespace MyApp
         {
             string path = "/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/file1.txt";
 
-            StreamReader sr = null;
             try
             {
-                sr = File.OpenText(path);
-                while (!sr.EndOfStream)
+                using (FileStream fs = new FileStream(path, FileMode.Open))
                 {
-                    string line = sr.ReadLine();
-                    Console.WriteLine(line);
+                    using (StreamReader sr = new StreamReader(fs))
+                    {
+                        string line = sr.ReadLine();
+                        Console.WriteLine(line);
+                    }
                 }
             }
             catch (IOException e)
             {
                 Console.WriteLine("An error occurred");
                 Console.WriteLine(e.Message);
-            }
-            finally
-            {
-                if (sr != null) sr.Close();
             }
         }
     }
