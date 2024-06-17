@@ -7,19 +7,23 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            string path = "/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/file1.txt";
-            string pathTwo = "/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/file2.txt";
+            string path = "/home/vinicius/Área de Trabalho/file-fileinfo-ioexception";
 
             try
             {
-                string[] lines = File.ReadAllLines(path);
-                using (StreamWriter sw = File.AppendText(pathTwo))
+                var folders = Directory.EnumerateDirectories(path, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("FOLDERS:");
+                foreach (string s in folders)
                 {
-                    foreach (string line in lines)
-                    {
-                        sw.WriteLine(line.ToUpper());
-                    }
+                    Console.WriteLine(s);
                 }
+                var files = Directory.EnumerateFiles(path, "*.*", SearchOption.AllDirectories);
+                Console.WriteLine("FILES:");
+                foreach (string s in files)
+                {
+                    Console.WriteLine(s);
+                }
+                Directory.CreateDirectory(@"newfolder");
             }
             catch (IOException e)
             {
