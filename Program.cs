@@ -8,15 +8,16 @@ namespace MyApp
         static void Main(string[] args)
         {
             string path = "/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/file1.txt";
+            string pathTwo = "/home/vinicius/Área de Trabalho/file-fileinfo-ioexception/file2.txt";
 
             try
             {
-                using (StreamReader sr = File.OpenText(path))
+                string[] lines = File.ReadAllLines(path);
+                using (StreamWriter sw = File.AppendText(pathTwo))
                 {
-                    while (!sr.EndOfStream)
+                    foreach (string line in lines)
                     {
-                        string line = sr.ReadLine();
-                        Console.WriteLine(line);
+                        sw.WriteLine(line.ToUpper());
                     }
                 }
             }
